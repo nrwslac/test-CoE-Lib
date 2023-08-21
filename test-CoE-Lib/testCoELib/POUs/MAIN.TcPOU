@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.18">
-  <POU Name="MAIN" Id="{6326f650-afd1-4789-988e-75eb7cdbc535}" SpecialFunc="None">
+  <POU Name="MAIN" Id="{37b0904a-2334-4b77-8e7e-d5a8d0d54da0}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 {attribute 'pytmc' := '
         pv: PLC:113:TEST
 '}
 fbCoeRead : FB_Read70x1CoeData;
+
 END_VAR
 ]]></Declaration>
     <Implementation>

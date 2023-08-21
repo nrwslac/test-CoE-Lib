@@ -2,21 +2,16 @@
   <PropertyGroup>
     <FileVersion>1.0.0.0</FileVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8ac2c63f-99ae-424c-9f75-60a6fb09353d}</ProjectGuid>
+    <ProjectGuid>{49d3aa8f-6411-4445-aab2-b09f326e1292}</ProjectGuid>
     <SubObjectsSortedByName>True</SubObjectsSortedByName>
-    <Name>Untitled1</Name>
+    <Name>testCoELib</Name>
     <ProgramVersion>3.1.4022.7</ProgramVersion>
-    <Application>{fb09d86e-5d4f-4618-a63b-6420e9bba402}</Application>
-    <TypeSystem>{a43bf04d-1ba5-4ad1-b212-2f72a6a4f72f}</TypeSystem>
-    <Implicit_Task_Info>{1b42f81c-f82d-436d-b857-02ddd9e676b6}</Implicit_Task_Info>
-    <Implicit_KindOfTask>{77c14f7d-0596-4699-b617-1d3336830bc0}</Implicit_KindOfTask>
-    <Implicit_Jitter_Distribution>{1393fbae-e1be-47b8-9d06-90075d47f9a4}</Implicit_Jitter_Distribution>
-    <LibraryReferences>{d1e71192-124f-4f22-b631-e22dd8544168}</LibraryReferences>
-    <CombineIds>false</CombineIds>
-    <Company>SLAC</Company>
-    <Released>true</Released>
-    <Title>test-CoE-Lib</Title>
-    <ProjectVersion>0.0.0</ProjectVersion>
+    <Application>{5ff3b3e8-e3ea-4241-ab97-e0972d8b3436}</Application>
+    <TypeSystem>{2cd92732-369a-42c6-851d-a1dec8b2d1aa}</TypeSystem>
+    <Implicit_Task_Info>{730d3f9c-ab91-4b0d-af2f-f0667c058d6b}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{716de39c-a68c-4c9f-b213-94d7e134d100}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{49dff7b2-acb1-4d88-9319-055978a329e8}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{666c1eed-f679-460a-9326-34b112e0e6c4}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PlcTask.TcTTO">
@@ -56,15 +51,15 @@
     </PlaceholderResolution>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Untitled1.tmc">
+    <None Include="testCoELib.tmc">
       <SubType>Content</SubType>
     </None>
   </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-        <Data>
-          <o xml:space="preserve" t="OptionKey">
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" ckt="String" cvt="OptionKey">
         <v>{192FAD59-8248-4824-A8DE-9177C94C195A}</v>
@@ -91,13 +86,13 @@
       </d>
       <d n="Values" t="Hashtable" />
     </o>
-        </Data>
-        <TypeList>
-          <Type n="Hashtable">System.Collections.Hashtable</Type>
-          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-          <Type n="String">System.String</Type>
-        </TypeList>
-      </XmlArchive>
+  </Data>
+  <TypeList>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>
