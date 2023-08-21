@@ -12,6 +12,11 @@
     <Implicit_KindOfTask>{716de39c-a68c-4c9f-b213-94d7e134d100}</Implicit_KindOfTask>
     <Implicit_Jitter_Distribution>{49dff7b2-acb1-4d88-9319-055978a329e8}</Implicit_Jitter_Distribution>
     <LibraryReferences>{666c1eed-f679-460a-9326-34b112e0e6c4}</LibraryReferences>
+    <CombineIds>false</CombineIds>
+    <Company>SLAC</Company>
+    <Released>true</Released>
+    <Title>testCoeLib</Title>
+    <ProjectVersion>0.0.0</ProjectVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PlcTask.TcTTO">
